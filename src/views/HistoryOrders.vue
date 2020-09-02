@@ -7,8 +7,9 @@
 					<th class="text-left">id</th>
 					<th class="text-left">валютная пара</th>
 					<th class="text-left">объем</th>
+					<th class="text-left">дата создания</th>
 					<th class="text-left">тип</th>
-					<th class="text-left">Цена</th>
+					<th class="text-left">цена</th>
 					<th class="text-left">Состояние</th>
 				</tr>
 				</thead>
@@ -19,6 +20,7 @@
 					<td>{{item.orderQty}}</td>
 					<td>{{formatDate(item.timestamp)}}</td>
 					<td>{{item.side}}</td>
+					<td>{{item.price}}</td>
 					<td>{{item.ordStatus}}</td>
 				</tr>
 				</tbody>
